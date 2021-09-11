@@ -1,0 +1,16 @@
+11:37:39.907 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+11:37:42.424 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+11:37:52.584 [TestNG-tests-3] INFO  resources.Base - Successful click on Practice
+11:37:58.917 [TestNG-tests-3] INFO  resources.Base - Successful validating Practice page
+18:12:54.174 [TestNG-tests-2] INFO  resources.Base - Successful display of Navigation bar
+18:12:55.608 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+18:12:59.372 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+18:13:00.045 [TestNG-tests-3] INFO  resources.Base - Successful click on Practice
+18:13:07.220 [TestNG-tests-3] INFO  resources.Base - Successful validating Practice page
+18:15:54.729 [TestNG-tests-2] INFO  resources.Base - Successful display of Navigation bar
+18:15:57.069 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+18:16:00.868 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+18:16:01.370 [TestNG-tests-3] INFO  resources.Base - Successful click on Practice
+18:16:08.466 [TestNG-tests-3] INFO  resources.Base - Successful validating Practice page
+21:10:45.054 [main] INFO  resources.Base - Successful entry of login details
+21:10:47.983 [main] INFO  resources.Base - Successful entry of login details

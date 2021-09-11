@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.119 s <<< FAILURE! - in TestSuite
+FrameworkBuild.ValidateTitle.navigateToLandingPage  Time elapsed: 5.339 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED_COURSES] but found [FEATURED COURSES]
+	at FrameworkBuild.ValidateTitle.navigateToLandingPage(ValidateTitle.java:35)
+

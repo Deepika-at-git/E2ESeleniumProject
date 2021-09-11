@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">Validate title</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,820</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Validating navigation bar</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,407</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Validating basePageNavigation</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,820</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Validating practice on landing page</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,047</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">68,094</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validate title &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">FrameworkBuild.ValidateTitle</td><td><a href="#m0">navigateToLandingPage</a></td><td rowspan="1">1630718147024</td><td rowspan="1">5556</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Validating navigation bar &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">FrameworkBuild.ValidateNavigationBar</td><td><a href="#m1">navBar</a></td><td rowspan="1">1630718147036</td><td rowspan="1">7699</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Validating basePageNavigation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">FrameworkBuild.HomePage</td><td><a href="#m2">basePageNavigation</a></td><td rowspan="2">1630718147024</td><td rowspan="2">11406</td></tr><tr class="passedeven"><td><a href="#m3">basePageNavigation</a></td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Validating practice on landing page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">FrameworkBuild.ValidatePracticeLandingPage</td><td><a href="#m4">validatePractice</a></td><td rowspan="1">1630718147250</td><td rowspan="1">21216</td></tr></tbody>
+</table>
+<h2>Validate title</h2><h3 id="m0">FrameworkBuild.ValidateTitle#navigateToLandingPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [FEATURED_COURSES] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at FrameworkBuild.ValidateTitle.navigateToLandingPage(ValidateTitle.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating navigation bar</h2><h3 id="m1">FrameworkBuild.ValidateNavigationBar#navBar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating basePageNavigation</h2><h3 id="m2">FrameworkBuild.HomePage#basePageNavigation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>user1@abc.com</td><td>user1</td><td>User1 login</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">FrameworkBuild.HomePage#basePageNavigation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>user2@abc.com</td><td>user2</td><td>User2 login</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating practice on landing page</h2><h3 id="m4">FrameworkBuild.ValidatePracticeLandingPage#validatePractice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

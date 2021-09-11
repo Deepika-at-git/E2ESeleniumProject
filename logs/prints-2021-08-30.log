@@ -1,0 +1,20 @@
+17:17:03.150 [main] INFO  resources.Base - Successful display of Navigation bar
+17:17:15.003 [main] INFO  resources.Base - Successful click on Practice
+17:17:21.547 [main] INFO  resources.Base - Successful validating Practice page
+17:17:26.409 [main] INFO  resources.Base - Successful validation of the Title
+17:45:18.248 [TestNG-tests-1] INFO  resources.Base - Initializing Driver
+17:45:26.365 [TestNG-tests-2] INFO  resources.Base - Successful display of Navigation bar
+17:45:28.036 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+17:45:30.704 [TestNG-tests-1] INFO  resources.Base - Initializing Driver
+17:45:33.542 [TestNG-tests-3] INFO  resources.Base - Successful click on Practice
+17:45:37.971 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+12:16:20.473 [main] INFO  resources.Base - Initializing Driver
+12:16:25.606 [main] INFO  resources.Base - Successful entry of login details
+12:16:28.045 [main] INFO  resources.Base - Initializing Driver
+12:16:33.053 [main] INFO  resources.Base - Successful entry of login details
+12:19:52.118 [TestNG-tests-1] INFO  resources.Base - Initializing Driver
+12:19:59.370 [TestNG-tests-2] INFO  resources.Base - Successful display of Navigation bar
+12:20:00.469 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details
+12:20:03.166 [TestNG-tests-1] INFO  resources.Base - Initializing Driver
+12:20:07.054 [TestNG-tests-3] INFO  resources.Base - Successful click on Practice
+12:20:08.668 [TestNG-tests-1] INFO  resources.Base - Successful entry of login details

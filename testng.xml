@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"  parallel="tests">
+    <listeners>
+        <listener class-name="FrameworkBuild.Listeners"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="Validating basePageNavigation">
+        <classes>
+            <class name="FrameworkBuild.HomePage">
+                <methods>
+                    <include name="basePageNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Validating navigation bar">
+        <classes>
+            <class name="FrameworkBuild.ValidateNavigationBar">
+                <methods>
+                    <include name="navBar"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Validating practice on landing page">
+        <classes>
+            <class name="FrameworkBuild.ValidatePracticeLandingPage">
+                <methods>
+                    <include name="validatePractice"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Validate title">
+        <classes>
+            <class name="FrameworkBuild.ValidateTitle">
+                <methods>
+                    <include name="navigateToLandingPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
